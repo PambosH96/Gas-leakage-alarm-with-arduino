@@ -1,0 +1,43 @@
+int sensorvalue;
+int sensorpercentage;
+int sensor = A0;
+int buzzer = 13;
+
+void setup()
+{
+  pinMode(buzzer, OUTPUT);
+  pinMode(sensorvalue, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+ sensorvalue = analogRead(sensor);
+ sensorpercentage=map(sensorvalue ,487,877,0,100);
+  
+ 
+ Serial.print("sensorvalue= "); 
+ Serial.print(sensorvalue); 
+
+  
+ Serial.print(" Percent= "); 
+ Serial.println(sensorpercentage); 
+  
+  if(sensorvalue > 235){
+    
+  //    digitalWrite(buzzer, HIGH);
+    
+      tone(buzzer,400);
+    
+  }
+  
+  else{
+    
+  //    digitalWrite(buzzer, LOW);
+    
+       noTone(buzzer);
+    
+  }
+  
+ delay(100);   
+}
