@@ -1,3 +1,9 @@
 # arduino-haralambos-haralambous
 
-this project its about arduino using simulator on tinkercad and when our detector detect a gas then it makes some noise
+Gas leakage control.
+
+If there is a leakage of polluting gas into the environment,
+then as this passes through the sensor,
+a buzzer will be activated to alert us to the gas leak.
+The above solution will be implemented using Arduino Simulator
+from Autodesk Tinkercad.
