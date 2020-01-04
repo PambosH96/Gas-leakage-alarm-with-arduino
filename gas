@@ -23,7 +23,7 @@ void loop()
  Serial.print(" Percent= "); 
  Serial.println(sensorpercentage); 
   
-  if(sensorvalue > 235){
+  if(sensorvalue > 80){
     
   //    digitalWrite(buzzer, HIGH);
     
