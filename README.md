@@ -1,6 +1,5 @@
-#Gas leakage control with arduino
+Gas leakage control with arduino
 
-Gas leakage control.
 
 If there is a leakage of polluting gas into the environment,
 then as this passes through the sensor,
