@@ -1,4 +1,4 @@
-# arduino-haralambos-haralambous
+#Gas leakage control with arduino
 
 Gas leakage control.
 
